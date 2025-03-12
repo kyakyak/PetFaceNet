@@ -57,7 +57,7 @@ pip install -r requirements.txt
 To train a new model from scratch:
 
 ```sh
-python src/train.py
+python train.py
 ```
 The batch size, number of epochs, learning rate, and other settings can be adjusted in the src/config.py file. Modify the values as needed before running train.py.
 
@@ -67,7 +67,7 @@ The batch size, number of epochs, learning rate, and other settings can be adjus
 To detect pet faces in an image:
 
 ```sh
-python src/detect.py --image_path path/to/image.jpg
+python detect.py --image_path path/to/image.jpg
 ```
 
 ---
