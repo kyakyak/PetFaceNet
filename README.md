@@ -84,7 +84,6 @@ This project requires the following libraries:
 - Python 3.9+
 - PyTorch 2.6
 - Torchvision
-- OpenCV
 - Matplotlib
 - NumPy
 ```
