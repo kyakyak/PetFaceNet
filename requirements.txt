@@ -1,0 +1,39 @@
+python==3.9.21
+
+# 필수 라이브러리
+numpy==1.26.3
+pandas
+matplotlib==3.9.2
+seaborn
+scipy
+scikit-learn
+torch==2.6.0+cu118
+torchvision==0.21.0+cu118
+torchaudio==2.6.0+cu118
+
+# Jupyter 및 관련 패키지
+jupyter
+jupyterlab
+notebook
+ipykernel
+ipywidgets
+
+# 데이터 처리 및 기타 유틸
+requests
+urllib3
+pillow==11.0.0
+PyYAML
+xmltodict
+
+# 성능 최적화 및 병렬 처리
+joblib
+threadpoolctl
+psutil
+tqdm
+
+# 기타 필수 라이브러리
+packaging
+PyQt6==6.7.1
+qtconsole
+traitlets
+typing_extensions
