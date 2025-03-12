@@ -55,8 +55,9 @@ pip install -r requirements.txt
 To train a new model from scratch:
 
 ```sh
-python src/train.py --epochs 50 --batch_size 16 --dataset_path data/
+python src/train.py
 ```
+The batch size, number of epochs, learning rate, and other settings can be adjusted in the src/config.py file. Modify the values as needed before running train.py.
 
 ---
 
@@ -72,7 +73,7 @@ python src/detect.py --image_path path/to/image.jpg
 ## 📊 Results
 Sample detection output:
 
-![Detection Example](assets/detection_example.jpg)
+![Detection Example](./Example.png)
 
 ---
 
