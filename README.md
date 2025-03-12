@@ -37,6 +37,7 @@ AI-powered pet face detection and classification. Detects and classifies dog and
 ├── train.py                 # Training script 
 ├── detect.py                # Inference script to detect pet faces
 ├── Example.png              # Example image
+├── LICENSE                  # MIT License
 ```
 
 ---
