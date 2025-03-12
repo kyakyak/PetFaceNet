@@ -18,14 +18,23 @@ AI-powered pet face detection and classification. Detects and classifies dog and
 ├── 📂 data/                 # Dataset storage
 │   ├── 📂 images/           # Raw images
 │   ├── 📂 annotations/      # Annotation files
-├── 📂 models/               # Trained models
+├── 📂 models/               # Trained models (Saved models in .pth format)
+├── 📂 notebooks/            # Jupyter Notebook containing full training workflow
+│   ├── notebook.ipynb       # Main notebook for training & evaluation
 ├── 📂 src/                  # Source code
-│   ├── train.py             # Training script
-│   ├── detect.py            # Inference script
-│   ├── dataset.py           # Dataset handling
-│   ├── utils.py             # Helper functions
-├── requirements.txt         # Dependencies
+│   ├── config.py            # Configuration settings (batch size, paths, etc.)
+│   ├── dataset.py           # Dataset handling & preprocessing
+│   ├── detector.py          # Model inference and face detection
+│   ├── evaluation.py        # Model evaluation metrics (mAP)
+│   ├── SSD.py               # SSD model architecture
+│   ├── trainer.py           # Training loop and logic
+├── .gitignore               # Ignore unnecessary files
+├── .gitattributes           # Git LFS tracking for large files
 ├── README.md                # Project documentation
+├── requirements.txt         # Required dependencies
+├── main.py                  # Main script for training and evaluation
+├── train.py                 # Training script 
+├── detect.py                # Inference script to detect pet faces
 ```
 
 ---

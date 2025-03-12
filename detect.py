@@ -1,13 +1,15 @@
-from src.dataset import get_DataLoader
-from src.detector import model_test
+import argparse
+from src.detector import detect_from_image
 
 def main():
-    # 데이터 로더 저장
-    _, _, test_dataset = get_DataLoader()
+    parser = argparse.ArgumentParser(description="Detect pet faces in an image.")
+    parser.add_argument("--image_path", type=str, required=True, help="Path to the input image")
     
-    path = 'best_SSD_model.pth'
+    path = "best_SSD_model.pth"
+
+    args = parser.parse_args()
     
-    model_test(test_dataset, path=path)
+    detect_from_image(args.image_path, path=path)
 
 if __name__ == '__main__':
     main()
