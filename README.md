@@ -51,6 +51,23 @@ cd PetFaceNet
 pip install -r requirements.txt
 ```
 
+### ❗ If the model is not loading
+This project uses **Git LFS (Large File Storage)** to store large files such as trained models.
+
+If the model file is missing or not downloaded properly, try the following:
+
+1. Install Git LFS (only required once):
+   ```sh
+   git lfs install
+   ```
+
+2. Pull the model files manually:
+   ```sh
+   git lfs pull
+   ```
+
+This should ensure that all model files are correctly downloaded.
+
 ---
 
 ## 🏅 Training
