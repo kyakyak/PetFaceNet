@@ -6,10 +6,10 @@ import matplotlib.pyplot as plt
 from src.config import BASE_DIR, DEVICE
 from src.SSD import get_model
 
-def model_test(test_dataset):
+def model_test(test_dataset, path='best_SSD_model.pth'):
     # 모델 로드
     model = get_model()
-    model.load_state_dict(torch.load(os.path.join(BASE_DIR, "models", 'best_SSD_model.pth')))
+    model.load_state_dict(torch.load(os.path.join(BASE_DIR, "models", path)))
     model.eval()
 
     # 랜덤한 테스트 이미지 인덱스 선택 (5개)
