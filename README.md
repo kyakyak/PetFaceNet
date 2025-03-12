@@ -27,6 +27,7 @@ AI-powered pet face detection and classification. Detects and classifies dog and
 │   ├── detector.py          # Model inference and face detection
 │   ├── evaluation.py        # Model evaluation metrics (mAP)
 │   ├── SSD.py               # SSD model architecture
+│   ├── tester.py            # Model image detect test
 │   ├── trainer.py           # Training loop and logic
 ├── .gitignore               # Ignore unnecessary files
 ├── .gitattributes           # Git LFS tracking for large files
