@@ -90,9 +90,15 @@ python detect.py --image_path path/to/image.jpg
 ---
 
 ## 📊 Results
-Sample detection output:
+#### Sample detection output:
 
-![Detection Example](./Example.png)
+model test:
+
+![Detection Example](./Example_1.png)
+
+detect:
+
+![Detection Example](./Example_2.png)
 
 ---
 
